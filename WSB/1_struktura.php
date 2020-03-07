@@ -6,7 +6,16 @@
 </head>
 <body>
 <?php
-echo "test";
+  $name="Janusz";
+  $surname="Nowak";
+echo "$name $surname";
+  echo '$name.$surname';
+  
+  //heredoc
+  
+  echo <<<SHOW
+  Imię:
+  SHOW;
 ?>
 </body>
 </html>
