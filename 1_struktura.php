@@ -6,7 +6,9 @@
 </head>
 <body>
 <?php
-echo "test";
+  $name="Janusz";
+  $surname="Nowak";
+echo "$name $surname";
 ?>
 </body>
 </html>
