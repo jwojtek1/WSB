@@ -9,6 +9,23 @@
   $name="Janusz";
   $surname="Nowak";
 echo "$name $surname";
+  
+  $text = <<<X
+  Imię: $name
+  X;
+  
+  echo $text, "<br>";
+  
+  $int = 10;
+  $hex = 0xA;
+  $oct = 012;
+  
+  echo $int, "<br>";
+  echo $hex, "<br>";
+  echo $oct, "<br>";
+  
+  echo phpinfo();
+  
 ?>
 </body>
 </html>
